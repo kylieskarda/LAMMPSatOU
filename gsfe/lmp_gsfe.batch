@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #SBATCH --job-name=gsfe
-#SBATCH --partition=cm3atou
+#SBATCH --partition=ame4970
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=4
 #SBATCH --output=lmp_gsfe.out
